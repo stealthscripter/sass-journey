@@ -47,3 +47,25 @@
     }
     
 }
+
+.btn-text{
+    &:visited , &:link{
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+    &:hover{
+        box-sizing: 0 1rem 2rem rgba($color-black , .15);
+        transform: translateY(-2px);
+        color: white;
+        background-color: $color-primary;
+    }
+    &:active{   
+        transform: translateY(0);
+        box-sizing: 0 .5rem 1rem rgba($color-black , .15);
+    }
+}
