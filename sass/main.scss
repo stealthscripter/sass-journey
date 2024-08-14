@@ -10,12 +10,15 @@
 @import './components/card';
 @import './components/button';
 
-@import './layout/header';
+@import './components/popup';
 
+@import './layout/header';
+@import './components/form';
 @import './base/typography';
 @import './components/story';
 @import './layout/grid';
 @import './components/bg-video';
+@import './components/naviagtion';
 
 @import './pages/home';
 @import './components/feature-box';
