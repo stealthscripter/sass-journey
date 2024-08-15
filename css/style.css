@@ -656,7 +656,6 @@ body {
   cursor: pointer;
 }
 .navigation__nav {
-  border: 1px solid red;
   height: 100vh;
   position: fixed;
   top: 0;
